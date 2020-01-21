@@ -2,8 +2,8 @@ from multiprocessing.managers import BaseManager
 from multiprocessing import freeze_support
 from multiprocessing import Process
 from multiprocessing import Queue
-from UrlManager import UrlManager
-from DataOutput import DataOutput
+from crawl.UrlManager import UrlManager
+from crawl.DataOutput import DataOutput
 import time
 
 
