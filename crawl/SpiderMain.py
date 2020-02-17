@@ -1,6 +1,8 @@
 from  DataOutput import DataOutput
-from HtmlDownLoader  import HtmlDownLoader
-from  HtmlParser  import HtmlParser
+import sys
+sys.path.append("../")
+from  pythonCrawler.HtmlDownLoader  import HtmlDownLoader
+from  pythonCrawler.HtmlParser  import HtmlParser
 from  UrlManager import UrlManager
 
 class SpiderMain(object):
